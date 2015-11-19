@@ -1,0 +1,16 @@
+//- ./views/layout.jade
+doctype html
+html(ng-app="bewd.seed")
+  head
+    include ./includes/bower_bootstrap.jade
+    base(href="/")
+    block title
+      title BEWD Seed Project
+
+  body
+    include ./includes/flash.jade
+    include ./mixins/forLoggedInUser.jade
+    
+    .container
+      .well
+        block content

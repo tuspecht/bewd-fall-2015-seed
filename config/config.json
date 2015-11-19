@@ -1,0 +1,14 @@
+{
+    "development": {
+        "storage": "store/bewd-seed.db",
+        "dialect": "sqlite"
+    },
+    "test": {
+        "logging": false,
+        "storage": "store/test.db",
+        "dialect": "sqlite"
+    },
+    "production": {
+        "use_env_variable": "DATABASE_URL"
+    }
+}
