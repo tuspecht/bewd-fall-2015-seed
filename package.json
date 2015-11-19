@@ -33,10 +33,10 @@
     "pg": "^4.4.3",
     "pg-hstore": "^2.3.2",
     "protractor-http-mock": "^0.1.18",
-    "sequelize": "^3.9.0",
-    "sequelize-cli": "^1.9.1",
+    "sequelize": "^3.14.0",
+    "sequelize-cli": "^1.9.2",
     "sparkpost": "^1.1.0",
-    "sqlite3": "^3.1.0"
+    "sqlite3": "^3.1.1"
   },
   "devDependencies": {
     "chai": "^3.4.0",
