@@ -65,4 +65,8 @@ gulp.task('build', function() {
     .pipe(gulp.dest('public/dist'));
 });
 
-gulp.task('default', ['server']);
+gulp.task('watch:build', function() {
+  return gulp.watch(webFiles, ['build']);
+});
+
+gulp.task('default', ['build', 'server', 'watch:build']);
